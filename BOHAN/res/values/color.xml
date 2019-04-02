@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *******未分类颜色***** -->
+    <!-- 主要蓝色 -->
+    <color name="colorPrimaryDark">#0e7ef1</color>
+    <color name="colorPrimary">#4a9cf8</color>
+    <!-- 深蓝色 -->
+    <color name="darkdarkBlue">#0054b8</color>
+    <!-- 常用颜色 -->
+    <color name="middleGray">#666666</color>
+    <color name="lightGray">#999999 </color>
+    <!-- *******字体颜色***** -->
+    <!-- 字体深灰 -->
+    <color name="textcolor_darkGray">#666666</color>
+    <color name="textcolor_lightGray">#999999</color>
+    <!-- 字体浅灰 -->
+    <color name="red">#fd3340 </color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- 蓝色字体 -->
+    <color name="text_color_blue">#167bf1</color>
+    <!-- *******背景颜色***** -->
+    <!-- 蓝色list背景 -->
+    <color name="bg_blue">#dbecfe</color>
+    <!-- 主页的蓝色渐变 -->
+    <color name="blueLight">#4a9cf8</color>
+    <color name="blueDark">#0e7ef1</color>
+    <color name="blueText">#389ddf</color>
+    <!-- *******按钮颜色***** -->
+    <!-- 登录界面深蓝色按钮 -->
+    <color name="login_button_light_blue">#5162b8</color>
+    <color name="login_button_blueDark">#0054b8</color>
+    <!-- 底下按钮选择器颜色 -->
+    <color name="darkBlue">#3c78d8</color>
+    <color name="lightBlue">#a4c2f4</color>
+    <!-- 按钮颜色 -->
+    <color name="button_text_color">#FFFFFF</color>
+    <!-- 按钮按下的色值 -->
+    <color name="button_touch">#328ffc</color>
+    <!-- 底部导航栏的颜色 -->
+    <color name="navigationBarColor">#328ffc</color>
+    <!-- 线条色值：  #e6e6e6   2px -->
+    <color name="line_color">#e6e6e6</color>
+    <!-- 白色背景边框色值 -->
+    <color name="frame_line_color">#e6e6e6</color>
+    <!-- 灰色背景颜色值 -->
+    <color name="bg_grade">#f8f8f8</color>
+    <!-- 自定义进度条颜色 -->
+    <color name="reveal_color">#3CB371</color>
+    <color name="color1">#E91E63</color>
+    <color name="color2">#9C27B0</color>
+    <color name="color3">#2196F3</color>
+    <color name="color4">#E8EAF6</color>
+    <color name="color5">#00BCD4</color>
+    <color name="color6">#E1F5FE</color>
+    <color name="color7">#E0F2F1</color>
+    <color name="color8">#CDDC39</color>
+    <color name="color9">#90A4AE</color>
+    <color name="color10">#1B5E20</color>
+    <!-- 时间选择器 -->
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+    <!-- 下拉菜单 -->
+
+    <color name="default_menu_back">#f1f1f1</color>
+    <color name="default_menu_press_back">#fafafa</color>
+    <color name="default_menu_press_text">#000000</color>
+    <color name="default_menu_text">#00cf9b</color>
+    <color name="divider">#f1f1f1</color>
+    <!-- 柱子颜色 -->
+    <color name="chartColor">#aa88E6FF</color>
+    <color name="chartColor2">#aa4A9CF8</color>
+    <color name="chartColor3">#aa738ffe</color>
+    <color name="lineColor">#47B4D2</color>
+    <color name="areaColor">#8DE7FF</color>
+     <!-- 折线图线条颜色 -->
+    <color name="chartlineColor">#3987f3</color>
+    <!-- 折线图和柱形图网格颜色 -->
+    <color name="chart_grid_line_color">#e6e6e6</color>
+    <!-- 环形进度条 -->
+    <color name="green">#00FF00</color>
+    <color name="blue">#33B5E5</color>
+    <color name="gray">#7c7c7c</color>
+    <color name="gray_white">#ebebeb</color>
+    <color name="gray_light">#887c7c7c</color>
+    <color name="gray_black">#2e2e2e</color>
+    <color name="yellow">#FFFC00</color>
+    <color name="pink">#FF87EF</color>
+    <color name="orange">#ff6200</color>
+    <color name="list_divider">#D3D3D3</color>
+    <color name="transparent">#00000000</color>
+    <color name="window_bg">#88838B8B</color>
+    <color name="arcColors1">#4fe7ce</color>
+    <color name="arcColors2">#608ccd</color>
+    <color name="arcColors3">#dd4f67</color>
+    <color name="arcColors4">#cece54</color>
+    <!-- 正在加载效果颜色 -->
+
+    <color name="triangle">#aa72d572</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+    <color name="view_bg">#00000000</color>
+    <color name="shadow">#25808080</color>
+    <color name="dialog_bg">#f5f5f5</color>
+    
+    <!-- 打钩动画 -->
+    <color name="arc_blue">#10a679</color>
+    <color name="color_fff">#ffffff</color>
+
+    <!-- 二维码颜色 -->
+    <color name="colorPrimaryDarkTrans">#67bddc</color>
+    <color name="scantextViewsize">#ffffff</color>
+
+    <!-- 下拉刷新的颜色 -->
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">#ff4CAF50</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+    <color name="dialog_title">#5b9afd</color>
+    
+    <color name="common_pressed">#ffcccccc</color>
+    <color name="common_normal">#ffffffff</color>
+</resources>

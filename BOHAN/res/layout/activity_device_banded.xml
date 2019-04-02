@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.mioto.bohan.activity.DeviceBandedActivity" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TVSmallblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="该设备已被别的用户绑定\n如有有疑问请致电客服电话" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <LinearLayout
+            android:id="@+id/tag_ll"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/booksheft_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="#706c6c"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/novel_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/location2"
+                android:textColor="#706c6c"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/cartoon_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/type2"
+                android:textColor="#706c6c"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/cursor_iv"
+        android:layout_width="120dp"
+        android:layout_height="8dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/viewpager_tab_line"
+        android:scaleType="matrix" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/inner_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_grade" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

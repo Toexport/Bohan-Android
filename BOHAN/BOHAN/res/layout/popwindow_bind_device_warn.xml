@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0000000"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginTop="160dp"
+        android:layout_width="258dp"
+        android:gravity="right"
+        android:layout_marginBottom="6dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivCancle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/login_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="258dp"
+        android:layout_height="144dp"
+        android:background="@drawable/bg_white_input_corner"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="你还未绑定任何设备哦!" />
+
+        <TextView
+            android:id="@+id/tvScanCode"
+            style="@style/tvBtnRoundBlueNormal"
+            android:layout_width="156dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="30dp"
+            android:text="点击绑定设备" />
+    </LinearLayout>
+
+</LinearLayout>

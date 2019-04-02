@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:background="@drawable/bg_tab1106"
+    android:layout_height="54dp">    
+    <RelativeLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="54dp"  
+    android:layout_gravity="center" >    
+   
+   <LinearLayout
+     android:paddingTop="2dp"
+     android:layout_centerInParent="true"
+     android:orientation="vertical"
+     android:gravity="center"
+     android:layout_width="wrap_content"  
+     android:layout_height="wrap_content"  >    
+   <ImageView
+       android:id="@+id/imageView"  
+       android:layout_width="25dp"
+       android:layout_height="25dp"
+       android:src="@drawable/ic_home_selector" />
+   <TextView   
+        android:id="@+id/textView"  
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:textSize="10dp"
+        android:focusable="true"  
+        android:text="TAB"
+        android:textColor="@drawable/selector_botton_radio_group_string"/>
+     </LinearLayout> 
+      <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  >
+        <TextView   
+        android:id="@+id/textView2"  
+        android:layout_width="wrap_content"  
+        android:layout_height="22dp"  
+        android:minWidth="22dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="10"
+		android:gravity="center"
+		android:textSize="12sp"
+		android:layout_marginLeft="3dp"
+        android:textColor="#ffffff"/>
+       </LinearLayout> 
+
+    </RelativeLayout>  
+</LinearLayout>  

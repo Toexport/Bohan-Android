@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="260dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical" 
+        android:background="@drawable/dialog_title_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title" 
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/dialog_title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+    
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:cacheColorHint="#00000000"
+        android:divider="#ffd2d2d2"
+        android:dividerHeight="2px"
+        android:fastScrollEnabled="true"
+        android:listSelector="#00000000"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" />
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+       <LinearLayout
+            android:id="@+id/buttonLayout_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:orientation="vertical" 
+            android:background="#ffffff">
+
+            <Button
+                android:id="@+id/negative_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cancel" 
+                android:textSize="16sp"
+                android:textColor="#3b3b3b"
+                android:background="@drawable/dialog_cancel_selector"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonLayout_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:orientation="vertical" 
+            android:background="#ffffff">
+            <Button
+                android:id="@+id/positive_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ok" 
+                android:textSize="16sp"
+                android:textColor="#3b3b3b"
+                android:background="@drawable/dialog_ok_selector"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

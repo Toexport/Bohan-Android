@@ -1,0 +1,15 @@
+<resources>
+
+<!--  *********854*480********** -->
+    <!-- 字体大小:   40px    30px    28px    24px -->
+    <dimen name="large_font_size">24sp</dimen>
+    <dimen name="mormal_font_size">20sp</dimen>
+    <dimen name="small_font_size">18sp</dimen>
+    <dimen name="mini_font_size">16sp</dimen>
+    
+     <!-- 自定义的柱状图的 左 上 右 下 margin 尺寸 -->
+    <dimen name="chartBarMarginLeft">40dp</dimen>
+    <dimen name="chartBarMarginTop">14dp</dimen>
+    <dimen name="chartBarMarginRight">16dp</dimen>
+    <dimen name="chartBarMarginBottom">18dp</dimen>
+</resources>

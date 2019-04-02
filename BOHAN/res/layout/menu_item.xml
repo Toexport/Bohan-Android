@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_menu_head"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_menu_back"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_menu_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:maxLength="30"
+            android:hint="@string/fill_select_information"
+            android:gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:textColor="@color/default_menu_text"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:gravity="center_vertical"
+                android:id="@+id/iv_menu_arrow"
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

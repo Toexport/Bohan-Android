@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/set_pwd" />
+
+        <EditText
+            android:id="@+id/etPwd1"
+            style="@style/TVSmallDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:gravity="left"
+            android:maxLength="12"
+            android:hint="@string/enter_password_more_than_6_char" />
+    </LinearLayout>
+
+    <View
+        style="@style/lineTran"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+    </View>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/password2" />
+
+        <EditText
+            android:id="@+id/etPwd2"
+            style="@style/TVSmallDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:gravity="left"
+            android:maxLength="12"
+            android:hint="@string/enter_password_again" />
+    </LinearLayout>
+
+    <View
+        style="@style/lineTran"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/tvConfirm"
+        style="@style/tvBtnRoundBlueNormal"
+        android:layout_width="114dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="36dp"
+        android:onClick="onClick"
+        android:text="@string/sumit" />
+
+</LinearLayout>

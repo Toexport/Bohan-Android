@@ -1,0 +1,421 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 自定义的主题 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/blueLight</item>
+        <!-- toolbar（actionbar）背景颜色 -->
+        <item name="colorPrimary">@color/blueLight</item>
+        <item name="colorAccent">@color/blueLight</item>
+        <item name="colorControlActivated">@color/blueLight</item>
+        <!-- 底部导航栏的颜色 -->
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/blueLight</item>
+        <!-- Toolbar Theme / Apply white arrow -->
+        <item name="colorControlNormal">@color/blueLight</item>
+        <!-- Navigation icon颜色设置 -->
+        <item name="drawerArrowStyle">@style/AppTheme.MyDrawerArrowStyle</item>
+    </style>
+   
+    <!-- 加入一個新的 navigation drarwer 的風格 -->
+    <style name="AppTheme.MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <!-- 將 spinBars 屬性設定為 false -->
+        <item name="spinBars">false</item>
+        <!-- 設定 drawer arrow 的顏色 -->
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <!-- 按钮的风格 -->
+    <!--
+         <style name="TextViewButton" parent="MatchWrap">
+        <item name="android:textSize">@dimen/textViewButtonTextSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_blue</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/textViewButtonMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/textViewButtonMarginRight</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    -->
+    <!-- ******文字类textview风格******* -->
+    <!-- textView风格 深色 tab -->
+    <style name="TVNormalDarkTab">
+        <item name="android:textSize">@dimen/mormal_font_size</item>
+        <item name="android:textColor">@color/textcolor_darkGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- textView风格 深色 tab -->
+    <style name="TVNormalDark">
+        <item name="android:textSize">@dimen/mormal_font_size</item>
+        <item name="android:textColor">@color/textcolor_darkGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- textView风格 蓝色 tab -->
+    <style name="TVNormalBlue">
+        <item name="android:textSize">@dimen/mormal_font_size</item>
+        <item name="android:textColor">@color/blueDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+        <!-- textView风格 红色 tab -->
+    <style name="TVNormalRed">
+        <item name="android:textSize">@dimen/mormal_font_size</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+     <!-- textView风格 蓝色 tab -->
+    <style name="TVLargeBlue">
+        <item name="android:textSize">@dimen/large_font_size</item>
+        <item name="android:textColor">@color/blueText</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- textView风格 白色 tab -->
+    <style name="TVNormalWhite">
+        <item name="android:textSize">@dimen/mormal_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- textView风格 small 深色 -->
+    <style name="TVSmallDark">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/textcolor_darkGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- textView风格 黑色 -->
+    <style name="TVSmallBlack">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- textView风格 浅色 -->
+    <style name="TVSmallLight">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/textcolor_lightGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    
+     <!-- textView风格 浅色 -->
+    <style name="TVMiniLight">
+        <item name="android:textSize">@dimen/mini_font_size</item>
+        <item name="android:textColor">@color/textcolor_lightGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+     <!-- textView风格  红色 -->
+    <style name="TVMiniRed">
+        <item name="android:textSize">@dimen/mini_font_size</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- textView风格  蓝色 -->
+    <style name="TVMiniBlue">
+        <item name="android:textSize">@dimen/mini_font_size</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    
+    <!-- textView风格 红色 -->
+    <style name="TVSmallRed">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="TVSmallblue">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/blueDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="TVSmallwhite">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- ****迷你字体**** -->
+    <!-- 迷你字体 浅灰 -->
+    <style name="TVMiniLightGray">
+        <item name="android:textSize">@dimen/mini_font_size</item>
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- 迷你字体 深灰 -->
+    <style name="TVMiniDarkGray">
+        <item name="android:textSize">@dimen/mini_font_size</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- ******************输入框EditText的风格************** -->
+       <!-- Et风格 浅色 小  限制最大输入数为30个字符 单行-->
+    <style name="EtSmallLight">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/textcolor_lightGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+     <!-- ******************统计小方块控件风格************** -->
+    <!-- 颜色小方块 -->
+    <style name="chartRect">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">@dimen/chartRec</item>
+        <item name="android:layout_height">@dimen/chartRec</item>
+        <item name="android:background">@color/chartColor</item>
+    </style>
+    <!-- 颜色小方块2 -->
+    <style name="chartRect2">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">@dimen/chartRec</item>
+        <item name="android:layout_height">@dimen/chartRec</item>
+        <item name="android:background">@color/chartColor2</item>
+    </style>
+       <!-- 颜色小方块3 -->
+    <style name="chartRect3">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">@dimen/chartRec</item>
+        <item name="android:layout_height">@dimen/chartRec</item>
+        <item name="android:background">@color/chartColor3</item>
+    </style>
+
+    <!-- ********开始计量类型按钮********** -->
+    <!-- ************9组定时************* -->
+    <!-- 9组时段设置白色外框 -->
+    <style name="bgNineWhite">
+        <item name="android:layout_width">336dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@drawable/bg_corner_gray_frame</item>
+    </style>
+    <!-- 9组时段设置时间蓝色小外框 -->
+    <style name="bgNineBlue">
+        <item name="android:layout_width">74dp</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="android:background">@drawable/background_login_account</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- ****************************************** -->
+    <!-- 蓝色圆角按钮 大 没有指定尺寸 有点击效果 -->
+    <style name="tvBtnRoundBlueNormal">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/selector_btn_radius_gradia</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- 灰色圆角按钮 大 没有指定尺寸 -->
+    <style name="tvBtnRoundGrayNormal">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/bg_round_tv_button_gray</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/textcolor_lightGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+     <!-- ****************************************** -->
+    <!-- 蓝色 圆角弧度5dp 没有指定尺寸 有点击效果 -->
+    <style name="tvBtnRound2BlueNormal">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/selector_btn_radius_gradia_2</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- 灰色色 圆角弧度5dp 没有指定尺寸 没有点击效果 -->
+    <style name="tvBtnRound2GrayNormal">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/bg_round_tv_button_gray_small_conner</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- 蓝色小按钮 -->
+    <style name="tvBtnSmallBlue">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/selector_btn_radius_gradia</item>
+    </style>
+    
+     <!-- 蓝色小按钮灰色状态 -->
+    <style name="tvBtnSmallGray">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_round_tv_button_gray</item>
+    </style>
+    <!-- 蓝色小按钮的灰色状态 -->
+    <style name="tvBtnSmallBlueGrayState">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_round_tv_button_gray</item>
+    </style>
+    <!-- 主页底下TAB的按钮样式 -->
+    <!--
+            <style name="tabBtn">
+        <item name="layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layout_weight">1</item>
+        <item name="background">@color/white</item>
+        <item name="android:button">@null</item>
+        <item name="textColor">@drawable/selector_botton_radio_group_string</item>
+        <item name="textSize">@dimen/mini_font_size</item>
+        <item name="onClick">doClick</item>
+    </style>
+    -->
+    
+     <style name="lineTranBlue">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/blueLight</item>
+    </style>
+    <!-- 灰色横线 单倍-->
+    <style name="lineTran">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <!-- 灰色横线 左右有空位 -->
+    <style name="lineTran3">
+        <item name="android:layout_width">match_parent</item>
+        <!--
+             <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        -->
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <!-- 2倍灰色横线 -->
+    <style name="lineTran2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <!-- 1倍灰色竖线线 -->
+    <style name="lineVertical">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/blueLight</item>
+    </style>
+
+    <!-- menu 的每个砖块 -->
+    <style name="menuBG">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@drawable/selector_white_bg</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- 图表背景 -->
+    <style name="bigChartBG">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/bg_blackline_chartbackground</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">6</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <!-- 自定义正在刷新动画 -->
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!-- 选择器的style -->
+    <style name="Animation.Popup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!-- 二维码 -->
+    <style name="TextViewButton" parent="MatchWrap">
+        <item name="android:textSize">@dimen/textViewButtonTextSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_blue</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/textViewButtonMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/textViewButtonMarginRight</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+ <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+   </style>
+   
+ <!-- 弹出框动画 由下至上 -->
+    <style name="dialogStyle" parent="@android:style/Animation.Dialog">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <!-- 进入时的动画 -->
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+        <!-- 退出时的动画 -->
+    </style>
+
+ <!-- 对话框样式 -->
+    <style name="Theme.Light.Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+</resources>

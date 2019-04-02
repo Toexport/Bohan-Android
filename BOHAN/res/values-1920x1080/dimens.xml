@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- 1920*1080 -->
+    <!-- 字体大小:   40px    30px    28px    24px -->
+    <dimen name="large_font_size">20sp</dimen>
+    <dimen name="mormal_font_size">16sp</dimen>
+    <dimen name="small_font_size">14sp</dimen>
+    <dimen name="mini_font_size">10sp</dimen>
+    <!-- 灰色线条大小 -->
+    <dimen name="line_size">12sp</dimen>
+    <!-- 二维码功能的尺寸 -->
+    <dimen name="textViewButtonMarginLeft">15dp</dimen>
+    <dimen name="textViewButtonMarginRight">15dp</dimen>
+    <dimen name="textViewButtonTextSize">15sp</dimen>
+    <dimen name="textViewButtonPadding">12dp</dimen>
+
+    <!-- 自定义的柱状图的 左 上 右 下 margin 尺寸 -->
+    <dimen name="chartBarMarginLeft">14dp</dimen>
+    <dimen name="chartBarMarginTop">4dp</dimen>
+    <dimen name="chartBarMarginRight">10dp</dimen>
+    <dimen name="chartBarMarginBottom">4dp</dimen>
+
+</resources>

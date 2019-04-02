@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_string_dimen">16dp</dimen>
+
+    <!-- 字体大小:   40px    30px    28px    24px -->
+    <dimen name="large_font_size">20sp</dimen>
+    <dimen name="mormal_font_size">15sp</dimen>
+    <dimen name="small_font_size">14sp</dimen>
+    <dimen name="mini_font_size">12sp</dimen>
+    <!-- 灰色线条大小 -->
+    <dimen name="line_size">12sp</dimen>
+    <!-- 二维码功能的尺寸 -->
+    <dimen name="textViewButtonMarginLeft">15dp</dimen>
+    <dimen name="textViewButtonMarginRight">15dp</dimen>
+    <dimen name="textViewButtonTextSize">15sp</dimen>
+    <dimen name="textViewButtonPadding">10dp</dimen>
+    <!-- 自定义的柱状图的 左 上 右 下 margin 尺寸 -->
+    <dimen name="chartBarMarginLeft">20dp</dimen>
+    <dimen name="chartBarMarginTop">10dp</dimen>
+    <dimen name="chartBarMarginRight">20dp</dimen>
+    <dimen name="chartBarMarginBottom">20dp</dimen>
+    <!-- 区分区域颜色的小方格大小 -->
+    <dimen name="chartRec">12dp</dimen>
+    <dimen name="barTitleMarginTop">8dp</dimen>
+    <!-- 注册账号页，前面文字 用户名，密码，确认密码框所占的比例 默认为4 在小屏幕为6-->
+    
+
+</resources>

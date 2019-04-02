@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BOHAN</string>
+    <string name="bohan_smart_power_terminal">BOHAN Smart Power Terminal</string>
+    <string name="action_settings">Settings</string>
+    <!-- 登录界面字符 -->
+    <string name="bohan_userName">Username</string>
+    <string name="password">Login Password</string>
+    <string name="password2">Confirm Password</string>
+    <string name="confirm_password">Password</string>
+    <string name="device_list">List</string>
+    <string name="login">Log In</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="register_success">Register Success</string>
+    <string name="register_fail">Register Fail</string>
+    <string name="register">Register BOHAN</string>
+    <string name="know_more_about_bohan">Know More:</string>
+    <string name="web_line"><u>www.bohan-smartec.com</u></string>
+    <string name="click_back_again_exit">Press The Return Key Once More To Exit</string>
+    <string name="login_successfully">Login Successfully!</string>
+    <string name="begin_time_click">Click To Select StartTime</string>
+    <string name="end_time_click">Click To Select EndTime</string>
+    <string name="exit_account">Are you sure to Logout？</string>
+    <string name="switchn1">Switch1</string>
+    <string name="switchn2">Switch2</string>
+    <string name="switchn3">Switch3</string>
+    <!-- 扫描界面 -->
+    <string name="band_success">Check QR Code Success</string>
+    <string name="hour_des">(Ps:1~2 means 1:00~2:00)</string>
+    <!-- 图片统计界面 -->
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="id">ID:</string>
+    <string name="loading_popwer_data">Querying Electricity Datas</string>
+    <string name="loading_popwer_rate_data">QueryingElectric power</string>
+    <!-- 保存设备信息 -->
+    <string name="save_device_data">Set Device Info</string>
+    <string name="go_smart_link_now">Smark Link Now</string>
+    <string name="go_smart_link_later">Smark Link Later</string>
+    <string name="save_info_succefully_smark_link">Save Device Info Successfully!\nThis Device still did not be on line\n If you want the device to be online,\n please click "Smart Link Now"</string>
+    <string name="save_device_data_successfully">Set Device Info Successfully</string>
+
+    <!-- 星期 -->
+    <string name="mon">Mon.</string>
+    <string name="tue">Tue.</string>
+    <string name="wed">Wed.</string>
+    <string name="thu">Thu.</string>
+    <string name="fri">Fri.</string>
+    <string name="sat">Sat.</string>
+    <string name="sun">Sun.</string>
+    <string name="select_day">Select Days</string>
+    <string name="sumit">Sumit</string>
+    <!-- 智能连接界面 -->
+    <string name="fast_add">Fast Add</string>
+    <string name="add_by_hand">Add Manually</string>
+    <string name="wifi">WiFi</string>
+    <string name="show_password">Show Password</string>
+    <string name="add">Add</string>
+    <string name="connect_wifi">WiFi Connection</string>
+    <string name="connect_step">Step①:Please join your phone to WIFI;\n\nStep②:Power up the device，long press the button for 4~7 seconds until the screen shows "CONNECT";\n\nStep③:Enter your WIFI Password and click "Add".</string>
+
+    <!-- 主页界面字符 -->
+    <string name="main_page">MainPage</string>
+    <string name="all_info">Info</string>
+    <string name="user_center">User</string>
+    <string name="manage_device">Manage</string>
+    <string name="bound_list">List</string>
+    <!-- 设备列表界面 -->
+    <string name="device_name">Name:</string>
+    <string name="network_status">Network:</string>
+    <string name="type">Type:</string>
+    <string name="location">Location:</string>
+    <string name="deviceType">Appliances Type :</string>
+    <string name="button_status_on">Status:On</string>
+    <string name="button_status_off">Status:Off</string>
+    <!-- 设备Menu界面 -->
+    <string name="device_setting">Device Setting</string>
+    <!-- 时段设置界面 -->
+    <string name="time_setting">Time Setting</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="load_threshold">Load Threshold</string>
+    <string name="ammeter_time">Ammeter Time</string>
+    <string name="timing">Timing</string>
+    <string name="save">Save</string>
+    <string name="click_timing_to_timing">Click Timing Button To Timing</string>
+    <string name="enter_unit_price">Unit Price</string>
+    <string name="enter_load_threshold">Load Threshold</string>
+    <!-- 定时计量页面 -->
+    <string name="begin_time">Time Begin</string>
+    <string name="click_set_begin_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="click_set_end_time">End Time</string>
+    <string name="duration">Duration</string>
+    <string name="begin_to_count">Begin</string>
+    <string name="data_of_this_time">Setting Of This Time</string>
+    <string name="total_time">Total Time</string>
+    <string name="last_measurement_result">Result of last time</string>
+    <string name="begin_to_count_warning">Dear, system is measuring the data for you. \nAfter the system finishing measurement, \nwe will show you the result.</string>
+    <!-- 参数设置界面 -->
+    <string name="para_setting">Parama Setting</string>
+    <!-- 重置密码界面 -->
+    <string name="reset_pwd">Password</string>
+    <!-- 实时数据界面 -->
+    <string name="voltage">Voltage</string>
+    <string name="current">Current</string>
+    <string name="power">Power</string>
+    <string name="power_factor">Power Factor</string>
+    <string name="integrated_ele_power">Integrate Power</string>
+    <string name="cumulative_carbon_emissions">Carbon Emissions</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="yuan">$</string>
+    <!-- 注册界面字符 -->
+    <string name="title_activity_cal">CalActivity</string>
+    <string name="title_activity_test_brocast">TestBrocastActivity</string>
+    <string name="enter_password_more_than_6_char">6 - 12 Letters</string>
+    <string name="enter_password_again">Enter Password Again</string>
+    <!-- 共用 -->
+    <string name="update">Refresh</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <!-- 用电逐个查询Menu页面 -->
+    <string name="real_time_data">Real-time Data</string>
+    <string name="preferences">Preferences</string>
+    <string name="counting">Counting</string>
+    <string name="period">Period</string>
+    <string name="countdown">Countdown</string>
+    <string name="info">Info</string>
+    <!-- 定时设置页面 -->
+    <string name="coutDownWarningSentence">This Device still do not set any countdown.\n If you want to set countdown,\nplease choose the time interval\n and then click "On" or "Off",\nat last, click "Start".</string>
+    <string name="coutDownWarningEnd">Countdown Finished.</string>
+    <string name="after_5_min">After 5 Minutes</string>
+    <string name="after_10_min">After 10 Minutes</string>
+    <string name="custom_time">Custom</string>
+    <string name="device_on_off">Device On/Off</string>
+    <!-- 忘记密码页面 -->
+    <string name="userName">User</string>
+    <string name="userName2">Username</string>
+    <string name="verCode">Code</string>
+    <string name="enter_verCode">Enter Code</string>
+    <string name="get_verCode">Get Code</string>
+    <string name="s_try_again">s After Retry</string>
+    <string name="next">Next</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="title_activity_reset_data">ResetDataActivity</string>
+    <!-- 修改设备信息 -->
+    <string name="resetDeviceInfo">Reset Device Info</string>
+    <!-- 共有 -->
+    <string name="day1">D</string>
+    <string name="month1">M</string>
+    <string name="year1">Y</string>
+    <string name="to">To</string>
+    <!-- 所有设备日数据 -->
+    <string name="all_device_last_24_hours">All Device hours of Day Power (kwh)</string>
+    <string name="all_device_last_2024_hours">All Device Last 20 to 24 hours(kWh)</string>
+    <string name="all_device_last_2024_hours_power">All Device Last 20 to 24 hours(kW)</string>
+    <!-- 所有设备月数据 -->
+    <string name="all_device_last_15_days">All Device Last 10 Days(kWh)</string>
+    <string name="all_device_last_15_days_power">All Device Last 10 Days(kW)</string>
+    <string name="all_device_last_15_30_days">All Device Last 11 to 20 Days(kWh)</string>
+    <string name="all_device_last_15_30_days_power">All Device Last 11 to 20 Days(kW)</string>
+    <string name="all_device_last_21_30_days">All Device Last 21 to 30 Days(kWh)</string>
+    <string name="all_device_last_21_30_days_power">All Device Last 21 to 30 Days(kW)</string>
+    <!-- 所有设备月数据 -->
+    <string name="all_device_month_power">All Device Day of Month Power(kWh)</string>
+    <!-- 所有设备年数据 -->
+    <string name="all_device_year_power">All Device Month of Year Power(kWh)</string>
+    <string name="hour">Hour</string>
+    <string name="hour3">Hour</string>
+    <string name="day_">Day</string>
+    <string name="month_">Month</string>
+    <!-- ********单个设备********** -->
+    <string name="device_last_12_hours">Device Last 12 hours(kWh)</string>
+    <string name="device_last_12_24_hours">Device Last 13 to 24 hours(kWh)</string>
+    <string name="device_last_12_24_hours_power">Device Last 13 to 24 hours(kW)</string>
+    <string name="device_last_12_hours_power">Device Last 12 hours(kW)</string>
+    <!-- 单个设备显示方式2 -->
+    <string name="device_last_24_hours">Device Last 24 hours Datas(kW)</string>
+    <string name="device_last_24_hours_rates">Device Last 24 hours Rates(kW)</string>
+    <!--  -->
+    <string name="device_hour_day_AvgPower">Device Hour Day AvgPower(W)</string>
+    <string name="device_hour_day_power">Device Hour Day Power(kWh)</string>
+    <string name="device_last_5_hours_power">Device Last 6 hours(kW)</string>
+    <string name="device_last_5_hours">Device Last 6 hours(kWh)</string>
+    <string name="device_last_610_hours">Device Last 7 to 12 hours(kWh)</string>
+    <string name="device_last_610_hours_power">Device Last 7 to 12 hours(kW)</string>
+    <string name="device_last_1115_hours">Device Last 13 to 18 hours(kWh)</string>
+    <string name="device_last_1115_hours_power">Device Last 13 to 18 hours(kW)</string>
+    <string name="device_last_1620_hours">Device Last 19 to 24 hours(kWh)</string>
+    <string name="device_last_1620_hours_power">Device Last 19 to 24 hours(kW)</string>
+    <string name="device_last_2024_hours">Device Last 20 to 24 hours(kWh)</string>
+    <string name="device_last_2024_hours_power">Device Last 20 to 24 hours(kW)</string>
+    <!-- 所有设备月数据 -->
+    <string name="device_last_30_days">Device Last 30 Days Electricity Consumption(kWh)</string>
+    <string name="device_last_30_days_rates">Device Last 30 Days Electric Power(kW)</string>
+    <!--  -->
+    <string name="device_day_of_month_avg_power">Device Day of Month AvgPower(W)</string>
+    <string name="device_day_of_month_power">Device Day of Month Power(kWh)</string>
+    <string name="device_last_6_days">Device Last 6 Days(kWh)</string>
+    <string name="device_last_6_days_power">Device Last 6 Days(kW)</string>
+    <string name="device_last_7_12_days">Device Last 7 to 12 Days(kWh)</string>
+    <string name="device_last_7_12_days_power">Device Last 7 to 12 Days(kW)</string>
+    <string name="device_last_13_18_days">Device Last 13 to 18 Days(kWh)</string>
+    <string name="device_last_13_18_days_power">Device Last 13 to 18 Days(kW)</string>
+    <string name="device_last_19_24_days">Device Last 19 to 24 Days(kWh)</string>
+    <string name="device_last_19_24_days_power">Device Last 19 to 24 Days(kW)</string>
+    <string name="device_last_25_30_days">Device Last 25 to 30 Days(kWh)</string>
+    <string name="device_last_25_30_days_power">Device Last 25 to 30 Days(kW)</string>
+    <!-- 所有设备年数据 -->
+    <string name="device_last_12_months">Device Last 12 Months Datas(kWh)</string>
+    <string name="device_last_12_months_powers">Device Last 6 Months Rates(kW)</string>
+    <!--  -->
+    <string name="device_month_of_year_avg_power">Device Month of Year AvgPower(W)</string>
+    <string name="device_month_of_year_power">Device Month of Year Power(kWh)</string>
+    <string name="device_last_6_months">Device Last 6 Months(kWh)</string>
+    <string name="device_last_6_months_power">Device Last 6 Months(kW)</string>
+    <string name="device_last_712_months">Device Last 7-12 Months(kWh)</string>
+    <string name="device_last_712_months_power">Device Last 7-12 Months(kW)</string>
+    <!-- 设备在线列表 -->
+    <string name="name">Name</string>
+    <string name="location2">Location</string>
+    <string name="type2">Type</string>
+    <string name="type3">Type</string>
+    <string name="typeName">TypeName</string>
+    <!-- 我 页面 -->
+    <string name="add_device">Add Device</string>
+    <string name="instruction">Instruction</string>
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_version">About Version</string>
+    <string name="version">Version :</string>
+    <string name="log_out">Log Out</string>
+    <!-- 设备在线列表提示 -->
+    <string name="online_list_warn">Dear, you still did not add any devices.\n If you want to add device, \nplease click the button below, \nscan the QR Code which is behind the device.</string>
+    <string name="offline">Offline</string>
+    <string name="status_on">On</string>
+    <string name="status_off">Off</string>
+    <string name="online">Online</string>
+    <string name="socket">Socket</string>
+    <string name="ydc">Mobile Socket</string>
+    <string name="qbc">Wall socket</string>
+    <string name="switch2">Switch</string>
+    <string name="qiangk">qiangk</string>
+    <!-- 已绑定列表 -->
+    <string name="name_">Name :</string>
+    <string name="id_">ID :</string>
+    <string name="type_">Type :</string>
+    <string name="location_">Location :</string>
+    <string name="brand_">Brand :</string>
+    <string name="device">Device</string>
+    <string name="title_activity_test_circle_progress">TestCircleProgressActivity</string>
+    <!-- 加载中 -->
+    <string name="loading">Loading...</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="title_activity_off_line_device_remind">OffLineDeviceRemindActivity</string>
+    <!-- 小查询 -->
+    <string name="device_info">Device Info</string>
+    <string name="now_data">Current Data</string>
+    <string name="timing_setting">Timing</string>
+    <string name="dur_setting">Time Interval</string>
+    <string name="count_down">Count Down</string>
+    <string name="power_info">STATS</string>
+    <string name="check_device_data">Check Device Data</string>
+    <string name="it_is_smarking_wait">It is Connecting...</string>
+    <string name="verifying">Verifying...</string>
+    <string name="connect_fail">Connecting Fail</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connected"> is connected to the wifi</string>
+    <string name="go_smark_link_again">Connect To WIFI</string>
+    <!-- 自动更新 -->
+    <string name="newUpdateAvailable">发现新版本</string>
+    <string name="dialogPositiveButton">立即下载</string>
+    <string name="dialogNegativeButton">以后再说</string>
+    <string name="app_no_new_update">没有发现新版本</string>
+    <string name="download_progress">正在下载:%1$d%%</string>
+    <string name="download_success">下载完成，点击安装</string>
+    <!-- 二维码 -->
+    <!-- <string name="app_name">QR Code Scanner</string> -->
+    <string name="scan_qrcode">Scan QR Code</string>
+    <string name="scan">Scan</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="generate_qrcode">Generate QR Ccode</string>
+    <string name="save_picture">Save to Phone</string>
+    <string name="save_picture_success">Save success</string>
+    <string name="save_picture_failed">Save failure</string>
+    <string name="album">Album</string>
+    <string name="copy_content">Copy content</string>
+    <string name="open_link">Open link</string>
+    <string name="below_scan_window">Align QR Code/barcode within frame to scan</string>
+    <string name="generate_QR_Code_fail">Please input content</string>
+    <string name="picture_has_been_save_to">Picture has been save to</string>
+    <string name="dir">/ Dir</string>
+    <string name="hint_please_input">Please input...</string>
+    <string name="apply_for_perssion">"Quick Scan QR Code" applies for the permission of Use camera</string>
+    <string name="copy_successful">Copy success</string>
+    <string name="exit_warning">Click one more time back button will Exit the app</string>
+    <string name="copy_warning">Sorry, please generate QR Code first.</string>
+    <string name="paste_message">Do you want to paste the content of the clipboard?</string>
+    <string name="ok">OK</string>
+    <string name="cancle">Cancle</string>
+    <string name="qrcode">QR Code</string>
+    <string name="can_not_scan">Sorry, disable to scan this picture</string>
+    <string name="input_lenght_out_of_range_warning">Input length out of range. Can not input more than 200 letters.</string>
+    <string name="please_scan">Please Scan The QR Code of The Device</string>
+    <string name="device_is_off_line">Device is Offline.\nDeivce Info is not available</string>
+    <!-- 下拉刷新 -->
+    <integer-array name="material_colors">
+        <item>@color/material_blue</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_blue</item>
+    </integer-array>
+
+    <string name="title_activity_instruction">Instruction</string>
+    <string name="title_activity_faq">FAQ</string>
+    <!-- 各种提示的string -->
+    <string name="phone_null_remind">The phone number can not be empty</string>
+    <string name="phone_wrong_remind">The phone number is wrong. Please input the right number.</string>
+    <!--  -->
+    <string name="loading_data">Loading...</string>
+    <string name="loading_data_fail">Load Fail</string>
+    <string name="title_activity_creat_qrcode">CreatQRCodeActivity</string>
+    <string name="title_activity_online_list">OnlineListActivity</string>
+    <string name="delete_account">Delete Device？</string>
+    <string name="title_activity_register_input_pwd">RegisterInputPwdActivity</string>
+
+    <!-- Exception tip -->
+    <string name="exception_statusline">无法连接到服务器：</string>
+    <string name="exception_json">数据格式有问题：</string>
+    <string name="exception_unknownhost">访问的服务已经关闭或者不存在</string>
+    <string name="exception_socket">服务不给力：</string>
+    <string name="exception_sockettimeout">服务响应超时</string>
+    <string name="exception_io">未能找到指定资源异常</string>
+    <string name="exception_illegalargument">不合法的参数异常</string>
+    <string name="exception_connecttimeout">连接服务超时</string>
+    <string name="exception_unknown">未知错误：</string>
+
+    <!-- 网络 -->
+    <string name="network_setting">"网络设置"</string>
+    <string name="no_connection">"网络异常，请检查网络"</string>
+    <string name="connection_timeout">连接超时</string>
+    <string name="cannot_connection_server">未能连接到服务器</string>
+    <string name="contection_excption">连接问题：</string>
+    <string name="rerefresh">拖动重新加载</string>
+    <string name="loging">正在登录...</string>
+    <string name="id_not_null">Id不能为空</string>
+    <string name="key_not_null">Key不能为空</string>
+    <string name="location_not_null">位置不能为空</string>
+    <string name="type_not_null">类别不能为空</string>
+    <string name="brand_not_null">品牌不能为空</string>
+    <string name="band_device">绑定设备</string>
+    <string name="OK">确定</string>
+    <string name="binding">正在绑定...</string>
+    <string name="deling">正在删除...</string>
+    <string name="del_device_fail">删除设备失败</string>
+    <string name="del_device_success">删除设备成功</string>
+    <string name="all_select">全选</string>
+    <string name="all_no_select">全不选</string>
+    <string name="please_input_mobile">请输入手机号</string>
+    <string name="please_select_share_device">请选中需要分享的设备</string>
+    <string name="please_input_user_id">请输入目标用户账号</string>
+    <string name="input_fomart_error">输入的格式有误</string>
+    <string name="opening">正在打开</string>
+    <string name="closing">正在关闭</string>
+    <string name="title_activity_test_chart">TestChartActivity</string>
+    <string name="please_wait">Please Wait...</string>
+    
+    
+    <string name="start">start</string>
+	<string name="device_temp">device temp</string>
+	<string name="please_input_pwd">Please Input Pwd</string>
+	<string name="share">Share</string>
+	<string name="cancel">Cancel</string>
+	<string name="no_set_time_tip">The device is not set time data click Settings</string>
+	<string name="data_set_time_tip">When the device is not in use, please click on the open button to open the top right corner of the page</string>
+	<string name="set_time_tip">Please click on the power mode when the device is executing</string>
+	<string name="set">Set</string>
+	<string name="check">Check</string>
+	<string name="login_expired ">Login Expired</string>
+	<string name="no_online_list_warn">亲，你还没有绑定任何设备哦\n如果你要绑定设备，请点击右上角按钮，\n扫描设备上的条形码，进行绑定</string>
+	<string name="please_input_error_code">Please Input Error Code</string>
+	<string name="bang_fail">Bang Fail</string>
+	<string name="please_select_device_location">请选择设备位置</string>
+	<string name="please_dian_type">请选择用电类型</string>
+	<string name="please_select_brand">请选择品牌</string>
+	<string name="share_device">分享设备</string>
+	<string name="forget_password2">忘记密码</string>
+	<string name="send_code_tip1">验证码发送成功，请留意手机号</string>
+	<string name="send_code_tip2">的短信消息</string>
+	<string name="send_code_error_tip">网络错误，发送验证码失败</string>
+	<string name="repwd">重设密码</string>
+	<string name="username_not_null">用户名不能为空</string>
+	<string name="pwd_not_null">密码不能为空</string>
+	<string name="input_share_username">请输入目标用户的用户名</string>
+	<string name="input_share_username2">请输入共享用户用户名</string>
+	<string name="dowload_tip">已经在手机后台启动下载,下载完毕后会提示安装</string>
+	<string name="setting">正在设置</string>
+	<string name="set_fail">设置失败</string>
+	<string name="set_success">设置成功</string>
+	<string name="device_offline">设备已离线</string>
+	<string name="select_9_data">正在查询9组定时数据</string>
+	<string name="refresh_success">刷新成功</string>
+	<string name="number_error">数值超出</string>
+	<string name="flash_error">FLASH出错</string>
+	<string name="operation_failure">操作失败</string>
+	<string name="Countdown_to_update_information">更新倒计时信息中</string>
+	<string name="set_countdown_on">正在设置倒计时开</string>
+	<string name="set_countdown_off">正在设置倒计时关</string>
+	<string name="countdown_information_update_failure">倒计时信息更新失败</string>
+	<string name="countdown_setting_on_failure">倒计时开设置失败</string>
+	<string name="countdown_setting_off_failure">倒计时关设置失败</string>
+	<string name="Information_update_failed">信息更新失败</string>
+	<string name="hour2">小时</string>
+	<string name="min">分钟</string>
+	<string name="min2">分</string>
+	<string name="device_on">设备打开</string>
+	<string name="device_off">设备关闭</string>
+	<string name="set_time_error">设置的倒计时必须大于1分钟</string>
+	<string name="countdown_setting_on_success">设置倒计时开成功</string>
+	<string name="countdown_setting_off_success">设置倒计时关成功</string>
+	<string name="state_being_updated">正在更新状态</string>
+	<string name="realtime_data_loading">实时数据加载中</string>
+	<string name="real_time_data_loading_failure">实时数据加载失败</string>
+	<string name="data_parsing_failed">数据解析失败，请检查数据格式是否正确！</string>
+	<string name="week">星期</string>
+	<string name="unit_price_threshold_query">单价门限查询中</string>
+	<string name="the_school_when">校时中</string>
+	<string name="setting_up_unit_price">正在设置单价</string>
+	<string name="setting_load_threshold">正在设置负荷门限</string>
+	<string name="unit_price_threshold_query_failed">单价门限查询失败</string>
+	<string name="school_failed">校时失败</string>
+	<string name="set_unit_price_failure">设置单价失败</string>
+	<string name="query_time_equipment_failure">查询设备时间失败</string>
+	<string name="standby_power_outage_time_query_failed">待机断电时间查询失败</string>
+	<string name="set_standby_power_failure_time_delay_time">设置待机断电延时时间失败</string>
+	<string name="threshold_setting_load_failure">设置负荷门限失败</string>
+	<string name="set_standby_power">正在设置待机断电</string>
+	<string name="was_set_standby_power">正在设置待机不断电</string>
+	<string name="now_set_to">现在的设置为</string>
+	<string name="when_the_school_success">校时成功</string>
+	<string name="time_refresh_equipment">正在刷新设备时间</string>
+	<string name="being_queried_standby_power_outage_time">正在查询待机断电时间</string>
+	<string name="receive_instruction_set_failure_feedback_set_up_failure">收到设置失败反馈指令，设置失败</string>
+	<string name="maximum_2500w">该设备的最大负荷门限不得大于2500W</string>
+	<string name="maximum_3400w">该设备的最大负荷门限不得大于3400W</string>
+	<string name="maximum_4000w">该设备的最大负荷门限不得大于4000W</string>
+	<string name="set_standby_power_delay_time">正在设置待机断电延时时间</string>
+	<string name="not_be_empty">单价和负荷门限不能为空</string>
+	<string name="not_to_zero">输入数据格式有误，不得超过小数点后两位，不能为0</string>
+	<string name="must_be_less_than_100">设置的单价必须小于100</string>
+	<string name="saving">正在保存</string>
+	<string name="pirice_not_be_null">单价不能为空</string>
+	<string name="load_threshold_can_not_be_empty">负荷门限不能为空</string>
+	<string name="last_measurement_data_query">上次计量数据查询中</string>
+	<string name="in_the_metrological">设置计量中</string>
+	<string name="measurement_data_query_failed_last_time">上次计量数据查询失败</string>
+	<string name="failed_set_measurement_range">设置计量区间失败</string>
+	<string name="query_information_measurement">正在查询计量信息</string>
+	<string name="measured">本次正在计量</string>
+	<string name="start_input_time_error">输入的开始时间必须大于当前时间</string>
+	<string name="end_input_time_error">设置的结束时间必须大于开始时间</string>
+	<string name="select_time">请选择开始时间和结束时间</string>
+	<string name="update_data_fail">数据更新失败</string>
+	<string name="time_select">时间选择</string>
+	<string name="please_select_start_end_time">请选择开始和结束时间</string>
+	<string name="please_select_week">请选择星期</string>
+	<string name="control_equipment_failure_or_the_class_online">控制失败或该类无在线设备</string>
+	<string name="information_query_list">正在查询列表信息</string>
+	<string name="refreshing_state">正在刷新状态</string>
+	<string name="device_status_query">设备状态查询中</string>
+	<string name="device_status_query_failed">设备状态查询失败</string>
+	<string name="all_device_offline">没有在线设备</string>
+	<string name="update_success">修改成功</string>
+	<string name="repwd_success">重置密码成功</string>
+	<string name="save_info">保存信息</string>
+	<string name="not_data">没有数据</string>
+	<string name="error_opening_camera">打开相机出错</string>
+	<string name="not_qrcode">该图片不是二维码图片哦</string>
+	<string name="qrcode_error">二维码格式错误</string>
+	<string name="control">控制</string>
+	<string name="all_open">全部打开</string>
+	<string name="all_close">全部关闭</string>
+	<string name="control_all_or_part_of_success">全部或部分控制成功</string>
+	<string name="did_not_open">未开启</string>
+	<string name="did_open">已开启</string>
+	<string name="confirmed">待确认</string>
+	<string name="please_set_start_end_time">请设置开始和结束时间</string>
+	<string name="service_result_tip">服务器返回提示</string>
+	<string name="operation_successful">操作成功</string>
+	<string name="operation_failed">操作失败</string>
+	<string name="return_instructions_error">返回指令错误</string>
+	<string name="electricity_power_chance">正在用电(待机会断电)</string>
+	<string name="equipment_immediately_electricity">设备马上断电</string>
+	<string name="electricity_standby_continuous_electricity">正在用电(待机不断电)</string>
+	<string name="equipment_not_used">设备未使用</string>
+	<string name="equipment_disconnected">设备已断开</string>
+	<string name="power_equipment_disconnected_standby">设备已断开(待机断电)</string>
+	<string name="please_wait_for_finished_setting">请等待上个设置设置完毕</string>
+	<string name="current_device_offline">当前设备离线不可控制</string>
+	<string name="connection_successful">手机网络连接成功！</string>
+	<string name="WIFI_connection_successful">WIFI连接成功！</string>
+	<string name="mobile_phone_no_network">手机没有任何网络...</string>
+	<string name="recent_power_consumption_query">最近用电量查询中</string>
+	<string name="power_consumption_query_failed_recently">最近用电量查询失败</string>
+	<string name="electricity_power_query_failed_recently">最近用电功率查询失败</string>
+	<string name="equipment2">设备</string>
+	<string name="equ_connection_successful">连接成功</string>
+	<string name="please_input_wifi_username">请输入wifi账号</string>
+	<string name="please_open_wifi">请打开wifi</string>
+	<string name="recent_electricity_power_query">最近用电功率查询中</string>
+	<string name="data_read_failed">数据读取失败</string>
+	<string name="input_key_tip">请输入key或点击右边按钮进行扫描</string>
+	<string name="remaining">剩余</string>
+	<string name="start_the">启动</string>
+	<string name="ok_update">确认修改</string>
+	<string name="device_not_set_times">设备未设置时段数</string>
+	<string name="update_set">修改设置</string>
+	<string name="standby_power_control">待机断电控制</string>
+	<string name="power_outages">断电</string>
+	<string name="not_power_outages">不断电</string>
+	<string name="power_timing_settings">定时断电设置:</string>
+	<string name="empty_set">清空设定</string>
+	<string name="set_pwd">设置密码</string>
+	<string name="set_equipment_save">请设置设备信息后点击保存按钮</string>
+	<string name="bind_tip">该设备已经被你绑定过，是否要重新进行智能连接？</string>
+	<string name="speed_add">极速添加</string>
+	<string name="manually_add">手动添加</string>
+	<string name="historical_data">历史数据</string>
+	<string name="no_add_equiment">你还未添加任何设备哦!</string>
+	<string name="click_add_equiment">点击添加设备</string>
+	<string name="version_update_tip">当前有新的版本，是否更新？</string>
+	<string name="download_update">下载更新</string>
+	<string name="no_download">暂不下载</string>
+	<string name="waiting_add">等待添加中......</string>
+	<string name="equipment">设备号:</string>
+	<string name="start2">开始</string>
+	<string name="close">关闭</string>
+	<string name="week_days">周一  二  三  四  五 六</string>
+	<string name="all_equ_open">全开</string>
+	<string name="all_equ_close">全关</string>
+	<string name="fill_select_information">信息可填写或选择</string>
+	<string name="no_binding_equipment">你还未绑定任何设备哦!</string>
+	<string name="click_bind_eqipment">点击绑定设备</string>
+	<string name="select_language">语言选择</string>
+	<string name="options">options</string>
+	<string name="zh">中文</string>
+	<string name="en">英文</string>
+	<string name="total_power">Total electricity</string>
+	<string name="heater">热水器</string>
+	<string name="fish_tank">鱼缸</string>
+	<string name="night_light">小夜灯</string>
+	<string name="mosquito_repellent_incense">蚊香</string>
+	<string name="heater_q">取暖器</string>
+	<string name="parent_model">家长模式</string>
+	<string name="socket_disconnected">Server Disconnected</string>
+	<string name="email_not_null">Email empty</string>
+	<string name="email_format_error">Mailbox format error</string>
+	<string name="please_input_mail">Please input Mail</string>
+	<string name="enter_emil">Please enter your registered Email</string>
+	<string name="unlock">Unlock</string>
+	<string name="value_added_services">Value added services</string>
+	<string name="equipment_id">设备ID</string>
+	<string name="equipment_position">设备位置</string>
+	<string name="electricity_leix">用电类型</string>
+	<string name="appliance_brand">电器品牌</string>
+</resources>

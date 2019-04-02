@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:gravity="left|center_vertical"
+            android:text="@string/userName" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="10"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                style="@style/TVSmallDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:ems="15"
+                android:gravity="left|center_vertical"
+                android:hint="@string/enter_phone_number"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tvPhoneNumber"
+                style="@style/TVSmallDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint="@string/enter_phone_number"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/lineTran"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:text="@string/verCode" />
+
+        <EditText
+            android:id="@+id/etVerCode"
+            style="@style/TVSmallDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:background="@android:color/transparent"
+            android:maxLength="6"  
+            android:gravity="left"
+            android:hint="@string/verCode"
+            android:numeric="integer"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="4.6"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvGetVerCode"
+                style="@style/tvBtnRound2BlueNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_verCode" />
+
+            <TextView
+                android:id="@+id/tvTryAgain"
+                style="@style/tvBtnRound2GrayNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_try_again" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/lineTran"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+         >
+        
+        <TextView
+            android:id="@+id/tvNext"
+            style="@style/tvBtnRoundBlueNormal"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next" />
+        
+        <TextView
+            android:id="@+id/tvNextGray"
+            style="@style/tvBtnRoundGrayNormal"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next" />
+
+    </LinearLayout>
+
+</LinearLayout>

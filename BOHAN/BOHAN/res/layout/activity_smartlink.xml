@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+    
+    <include layout="@layout/custom_toolbar"
+        android:id="@+id/toolbar"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <LinearLayout
+            android:id="@+id/tag_ll"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/tvfastAdd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="极速添加"
+                android:textColor="#706c6c"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvHandAdd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="手动添加"
+                android:textColor="#706c6c"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/cursorIv"
+        android:layout_width="176dp"
+        android:layout_height="8dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/viewpager_tab_line"
+        android:scaleType="matrix" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPagerSmarkLink"
+           android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        ></android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.mioto.bohan.RegisterInputPwdActivity" >
+
+    <include layout="@layout/custom_toolbar" />
+    <!-- 密码 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="6"
+            android:gravity="left"
+            android:text="@string/password2" />
+
+        <EditText
+            android:id="@+id/etPlsEnterPwd"
+            style="@style/TVSmallDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="14"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:hint="@string/enter_password_more_than_6_char" />
+    </LinearLayout>
+
+    <View
+        style="@style/lineTran"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+    </View>
+    <!-- 确认密码 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="6"
+            android:gravity="left"
+            android:text="@string/confirm_password" />
+
+        <EditText
+            android:id="@+id/etPlsEnterPwd2"
+            style="@style/TVSmallDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="14"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:hint="@string/enter_password_again" />
+    </LinearLayout>
+
+    <View
+        style="@style/lineTran"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/tvSumitPwd"
+        style="@style/TVSmallwhite"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/selector_bg_regist_textview_blue"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/password2" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <!--
+         针对不同屏幕大小手机做的字体适配
+    -->
+     <!-- 字体大小:   40px    30px    28px    24px -->
+    <dimen name="large_font_size">20sp</dimen>
+    <dimen name="mormal_font_size">15sp</dimen>
+    <dimen name="small_font_size">14sp</dimen>
+    <dimen name="mini_font_size">12sp</dimen>
+
+</resources>

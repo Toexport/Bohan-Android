@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.mioto.bohan"
+    android:installLocation="auto"
+    android:versionCode="12"
+    android:versionName="1.0" >
+
+    <!-- 兼容至4.0版本 -->
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <!-- 友盟4个权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--  -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".BApplication"
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:icon="@drawable/icon_bohan"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- 主页 -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.MainActivity2"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 智能连接页面 -->
+        <activity
+            android:name=".activity.SmartLinkActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 扫描页面 -->
+        <activity
+            android:name=".activity.ScanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 保存信息页面 -->
+        <activity
+            android:name=".activity.SaveDeviceSettingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册页面 -->
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- ************欢迎页面******************* -->
+        <activity
+            android:name=".activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 登录页面 -->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- *********设备菜单页面***************************************************** -->
+        <activity
+            android:name=".activity.MenuDeviceInfoMenuActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 实时数据页面 -->
+        <activity
+            android:name=".activity.MenuNowDataActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 参数设置页面 -->
+        <activity
+            android:name=".activity.MenuParaSettingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 定时计量页面 -->
+        <activity
+            android:name=".activity.MenuSetTimeSetActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 9组时段设置 -->
+        <activity
+            android:name=".activity.Menu9ONOFFActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 9组时段设置设置时间的页面 -->
+        <activity
+            android:name=".activity.NineSetSetTimeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 单个用电统计 -->
+        <activity
+            android:name=".activity.MenuSingleDeviceSumActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 倒计时页面 -->
+        <activity
+            android:name=".activity.MenuCountDownActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- **************************************************************************** -->
+        <!-- 通信测试 -->
+        <activity
+            android:name=".activity.AAATestActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 忘记密码页面 -->
+        <activity
+            android:name=".activity.ForgetPwdRegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 重置密码页面 -->
+        <activity
+            android:name=".activity.ResetPwdActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- BOHAN网页页面 -->
+        <activity
+            android:name=".activity.WebActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 测试socket -->
+        <activity
+            android:name=".TestSocketActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 测试选择器 -->
+        <activity
+            android:name=".TestPickerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- ****************************************************** -->
+        <!-- 离线设备提示页面 -->
+        <activity
+            android:name=".activity.OffLineDeviceRemindActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_off_line_device_remind"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 重新进行智能连接页面 -->
+        <activity
+            android:name=".activity.SmartLinkAgainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_off_line_device_remind"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 测试socket2 -->
+        <activity
+            android:name=".activity.TestSocketActivity2"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 测试socket Service -->
+        <!--
+        <service android:name=".service.SocketService" >
+        </service>
+        -->
+        <!-- 测试socketV -->
+        <activity
+            android:name=".activity.TestVSActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 测试校验码计算 -->
+        <activity
+            android:name=".CalActivity"
+            android:label="@string/title_activity_cal" >
+        </activity>
+        <activity
+            android:name=".TestBrocastActivity"
+            android:label="@string/title_activity_test_brocast" >
+        </activity>
+        <!-- 重新设置设备信息 -->
+        <activity
+            android:name=".activity.ResetDataActivity"
+            android:label="@string/title_activity_reset_data" >
+        </activity>
+        <activity
+            android:name=".TestCircleProgressActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_test_circle_progress"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 操作指南 -->
+        <activity
+            android:name=".activity.InstructionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_instruction"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 常见问题 -->
+        <activity
+            android:name=".activity.FAQActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57876348e0f55a7201003948" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="FIRTest" />
+
+        <activity
+            android:name=".activity.DeviceBandedActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.CreatQRCodeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_creat_qrcode"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.OnlineStatusActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_online_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.ShareResultActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 监听网络状态发生改变的广播 -->
+        <receiver android:name=".brocast.NetBoardCastReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".RegisterInputPwdActivity"
+            android:label="@string/title_activity_register_input_pwd" >
+        </activity>
+
+        <service android:name="com.jiemai.bohan.service.TCPAliveService" >
+        </service>
+
+        <activity
+            android:name=".activity.BindDeviceActivity"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+        <activity
+            android:name=".TestChartActivity"
+            android:label="@string/title_activity_test_chart" >
+        </activity>
+    </application>
+
+</manifest>

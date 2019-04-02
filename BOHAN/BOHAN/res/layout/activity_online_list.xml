@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.mioto.bohan.activity.OnlineListActivity" >
+
+    <!-- 设备在线列表 -->
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        </cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout>
+    </cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout>
+
+</LinearLayout>

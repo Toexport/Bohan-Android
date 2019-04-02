@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.mioto.bohan.activity.MainActivity" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/llContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llBottom"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <!-- 底下按钮 -->
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+             >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_home"
+                android:gravity="center"
+                android:text="@string/device_list"
+                android:textColor="@drawable/selector_botton_radio_group_string"
+                android:textSize="@dimen/mini_font_size" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_bang"
+                android:gravity="center"
+                android:onClick="doClick"
+                android:text="@string/manage_device"
+                android:textColor="@drawable/selector_botton_radio_group_string"
+                android:textSize="@dimen/mini_font_size" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_data"
+                android:gravity="center"
+                android:onClick="doClick"
+                android:text="@string/all_info"
+                android:textColor="@drawable/selector_botton_radio_group_string"
+                android:textSize="@dimen/mini_font_size" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_tab_me"
+                android:gravity="center"
+                android:onClick="doClick"
+                android:text="@string/user_center"
+                android:textColor="@drawable/selector_botton_radio_group_string"
+                android:textSize="@dimen/mini_font_size" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:background="@drawable/selector_white_bg"
+            android:id="@+id/llShare"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="50dp" >
+            
+            <View style="@style/lineTran3"/>
+            
+            <ImageButton 
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/manage_device_share"
+                />
+            <TextView 
+                style="@style/TVMiniDarkGray"
+                android:text="分享"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_blue_retangle_gradius"
+        android:src="@drawable/qrcode_scan" />
+
+</RelativeLayout>

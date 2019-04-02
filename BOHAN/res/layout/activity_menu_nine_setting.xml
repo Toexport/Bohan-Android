@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3692f5"
+        android:minHeight="50dp" >
+
+        <!-- 标题 -->
+
+        <TextView
+            android:id="@+id/menu_front_9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/mormal_font_size" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:singleLine="true"
+            android:text="@string/dur_setting"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <!-- menu按钮 -->
+
+        <TextView
+            android:id="@+id/menu_tv_9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/selector_btn_blue_retangle_gradius"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/start"
+            android:textColor="@color/white"
+            android:textSize="@dimen/mormal_font_size"
+            android:visibility="gone" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/layoutSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_white_bg"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvSetTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:text="@string/device_not_set_times"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSet"
+            style="@style/tvBtnRound2BlueNormal"
+            android:layout_width="122dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/set"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTimeSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_white_bg"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="50dp"
+        android:visibility="gone" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_heater"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/tablerow"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/heater"
+                        android:textColor="@color/black" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_fish_tank"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/tablerow"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/fish_tank"
+                        android:textColor="@color/black" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_night_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/tablerow"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/night_light"
+                        android:textColor="@color/black" >
+                    </TextView>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow android:layout_marginTop="10dp" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_mosquito_repellent_incense"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/tablerow"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/mosquito_repellent_incense"
+                        android:textColor="@color/black" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_heater_q"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/tablerow"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/heater_q"
+                        android:textColor="@color/black" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_parent_model"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/tablerow"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/parent_model"
+                        android:textColor="@color/black" >
+                    </TextView>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ListView
+                android:id="@+id/m9setList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/white" >
+            </ListView>
+        </cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout>
+    </LinearLayout>
+
+    <View style="@style/lineTran" />
+
+    <LinearLayout
+        android:id="@+id/llBottomRev"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvBottomBtnConRev"
+            style="@style/TVNormalRed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ok_update" />
+    </LinearLayout>
+
+</LinearLayout>

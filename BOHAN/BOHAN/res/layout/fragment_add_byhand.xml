@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grade"
+    android:orientation="vertical" >
+
+    <!-- 说明文本 -->
+
+    <LinearLayout
+        android:id="@+id/explain_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_corner_gray_frame"
+        android:orientation="vertical"
+        android:padding="14dp" >
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/connect_step" />
+    </LinearLayout>
+    <!-- 隐藏的进度提示 -->
+
+    <LinearLayout
+        android:id="@+id/llprogress"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/addfast_progress" />
+
+        <TextView
+            style="@style/TVSmallDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="等待添加中......" />
+    </LinearLayout>
+    <!-- wifi注册 外框 -->
+
+    <LinearLayout
+        android:id="@+id/wifi_login_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_corner_blue_gradual"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/TVSmallwhite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="WIFI" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_input_corner" >
+
+            <EditText
+                android:id="@+id/etWifiName"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/bg_white_input_corner" >
+
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+            style="@style/TVSmallwhite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/password2" />
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_input_corner" >
+
+            <EditText
+                android:id="@+id/etPwd"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/bg_white_input_corner" >
+
+            </EditText>
+        </LinearLayout>
+        <!-- 显示密码，添加 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ivRmPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/addfast_circle_filled" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvAdd"
+                    style="@style/TVSmallwhite"
+                    android:layout_width="68dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bg_small_btn_darkblue_corner"
+                    android:text="@string/add" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

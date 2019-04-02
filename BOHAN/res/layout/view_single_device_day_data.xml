@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@drawable/bg_grayline_darkline_frame_white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title1"
+                style="@style/TVSmallDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barTitleMarginTop"
+                android:text="@string/device_hour_day_power" />
+            <!-- 颜色标签 -->
+
+            <cn.mioto.bohan.view.CustomBarChartViewHour
+                android:id="@+id/bar1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8" >
+            </cn.mioto.bohan.view.CustomBarChartViewHour>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/TVSmallDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textSize="@dimen/mini_font_size" />
+
+                <TextView
+                    style="@style/TVSmallDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/hour"
+                    android:textSize="@dimen/mini_font_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@drawable/bg_grayline_darkline_frame_white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title2"
+                style="@style/TVSmallDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barTitleMarginTop"
+                android:text="@string/device_hour_day_AvgPower" />
+
+            <cn.mioto.bohan.view.AreaChart01ViewHour
+                android:id="@+id/bar2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="8" />
+
+            <TextView
+                style="@style/TVSmallDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right|center_vertical"
+                android:text="@string/hour"
+                android:textSize="@dimen/mini_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

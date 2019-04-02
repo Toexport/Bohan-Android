@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 单个设备用电统计页面 分为3个Fragment分别显示日，月，年数据，而且这3个fragment里面嵌套Fragment -->
+
+    <include
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/custom_toolbar" />
+    <!-- 单个设备 顶栏信息 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1.3"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/TVMiniDarkGray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:singleLine="true"
+                android:text="@string/device_name" />
+
+            <TextView
+                android:id="@+id/tvName"
+                style="@style/TVMiniLightGray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/TVMiniDarkGray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:singleLine="true"
+                android:text="@string/location" />
+
+            <TextView
+                android:id="@+id/tvLocation"
+                style="@style/TVMiniLightGray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:singleLine="true" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/TVMiniDarkGray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:singleLine="true"
+                android:text="@string/id" />
+
+            <TextView
+                 android:id="@+id/tvID"
+                style="@style/TVMiniLightGray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:singleLine="true" />
+        </LinearLayout>
+
+      
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <LinearLayout
+            android:id="@+id/tag_ll"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/tvDayData"
+                style="@style/TVNormalDarkTab"
+                android:text="@string/day" />
+
+            <TextView
+                android:id="@+id/tvMonthData"
+                style="@style/TVNormalDarkTab"
+                android:text="@string/month" />
+
+            <TextView
+                android:id="@+id/tvYearData"
+                style="@style/TVNormalDarkTab"
+                android:text="@string/year" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivCursor"
+        android:layout_width="120dp"
+        android:layout_height="8dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/viewpager_tab_line"
+        android:scaleType="matrix" />
+
+    <View style="@style/lineTran2" />
+
+    <LinearLayout
+        android:id="@+id/llContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

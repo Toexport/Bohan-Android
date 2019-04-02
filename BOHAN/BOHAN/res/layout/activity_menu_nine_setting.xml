@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+
+        <ListView
+            android:id="@+id/m9setList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/white" >
+        </ListView>
+    </cn.mioto.bohan.view.pulltorefresh.MaterialRefreshLayout>
+
+    <View style="@style/lineTran" />
+
+    <LinearLayout
+        android:id="@+id/llBottomRev"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:visibility="gone"
+        android:layout_weight="0.8" >
+
+        <TextView
+            android:id="@+id/tvBottomBtnConRev"
+            style="@style/TVNormalRed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="确认修改" />
+    </LinearLayout>
+
+</LinearLayout>
